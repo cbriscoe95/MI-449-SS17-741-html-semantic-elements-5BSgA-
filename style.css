@@ -1,0 +1,38 @@
+.page-body{
+  margin-left: 130px;
+}
+#cthulhu-card{
+  width: 300px;
+  border: 1px solid gray;
+  box-shadow: 1px 1px 1px #888;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  float: left;
+}
+#yog-card{
+  width: 300px;
+  border: 1px solid gray;
+  box-shadow: 1px 1px 1px #888;
+  margin-right: 10px;
+  float:left;
+}
+#nyarlathotep-card{
+  width: 300px;
+  border: 1px solid gray;
+  box-shadow: 1px 1px 1px #888;
+  float: left;
+}
+.cthulhu-header{
+  text-align: center;
+}
+
+.text{
+  margin-left: 10px;
+}
+h2{
+  font-size: 120%;
+}
+
+.lovecraft-header{
+  text-align: center;
+}
