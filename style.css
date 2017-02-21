@@ -1,3 +1,8 @@
+body{
+    background-color: #E0E0E0;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
 .page-body{
   margin-left: 130px;
 }
@@ -8,6 +13,7 @@
   margin-right: 10px;
   margin-bottom: 10px;
   float: left;
+  background-color: white;
 }
 #yog-card{
   width: 300px;
@@ -15,12 +21,14 @@
   box-shadow: 1px 1px 1px #888;
   margin-right: 10px;
   float:left;
+  background-color: white;
 }
 #nyarlathotep-card{
   width: 300px;
   border: 1px solid gray;
   box-shadow: 1px 1px 1px #888;
   float: left;
+  background-color: white;
 }
 .cthulhu-header{
   text-align: center;
@@ -28,6 +36,7 @@
 
 .text{
   margin-left: 10px;
+  margin-right: 10px;
 }
 h2{
   font-size: 120%;
@@ -35,4 +44,12 @@ h2{
 
 .lovecraft-header{
   text-align: center;
+}
+
+.nav{
+  height: 50px;
+  width: 100%;
+  background-color: #161513;
+  margin-top: -20px;
+  color: white;
 }
