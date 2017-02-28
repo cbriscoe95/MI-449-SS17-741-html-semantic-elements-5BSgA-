@@ -1,35 +1,56 @@
 body{
     background-color: #E0E0E0;
     font-family: 'Alegreya Sans', sans-serif;
+    margin: 0 auto;
+}
+.nav-button{
+  color: orange;
+  display: inline;
 }
 
 .page-body{
-  margin-left: 130px;
+  margin-left: 80px;
 }
+
+.dummy-img{
+  width: 100%;
+}
+.dummy2-img{
+  width: 95%;
+}
+
 #cthulhu-card{
-  width: 300px;
+  width: 340px;
   border: 1px solid gray;
   box-shadow: 1px 1px 1px #888;
   margin-right: 10px;
   margin-bottom: 10px;
   float: left;
   background-color: white;
+  padding-bottom: 5px;
 }
+
 #yog-card{
-  width: 300px;
+  width: 340px;
   border: 1px solid gray;
   box-shadow: 1px 1px 1px #888;
   margin-right: 10px;
+  margin-bottom: 10px;
   float:left;
   background-color: white;
+  padding-bottom: 5px;
 }
+
 #nyarlathotep-card{
-  width: 300px;
+  width: 340px;
   border: 1px solid gray;
   box-shadow: 1px 1px 1px #888;
   float: left;
+  margin-bottom: 10px;
   background-color: white;
+  padding-bottom: 5px;
 }
+
 .cthulhu-header{
   text-align: center;
 }
@@ -46,10 +67,35 @@ h2{
   text-align: center;
 }
 
-.nav{
-  height: 50px;
-  width: 100%;
-  background-color: #161513;
-  margin-top: -20px;
-  color: white;
+.nav ul {
+  list-style: none;
+  background-color: #5d5e60;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  padding-right: 10px;
+  display: inline-block;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #ffffff;
+  display: block;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.nav a:hover {
+  background-color: #c68b13;
+}
+
+figcaption{
+  color: grey;
+  text-align: center;
 }
