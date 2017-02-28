@@ -26,7 +26,7 @@ body{
   margin-right: 10px;
   margin-bottom: 10px;
   float: left;
-  background-color: white;
+  background-color: #FFFFFF;
   padding-bottom: 5px;
 }
 
@@ -86,12 +86,13 @@ h2{
   text-decoration: none;
   color: #ffffff;
   display: block;
-  padding-left: 4px;
-  padding-right: 4px;
 }
 
 .nav a:hover {
   background-color: #c68b13;
+  transition: 0.5s ease-in-out;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 figcaption{
