@@ -1,0 +1,137 @@
+body{
+    background-color: #E0E0E0;
+    font-family: 'Alegreya Sans', sans-serif;
+    margin: 0 auto;
+}
+.nav-button{
+  color: orange;
+  display: inline;
+}
+
+.header-links{
+  color: black;
+  text-decoration: none;
+  font-size: 1.5em;
+  border: 0.1em solid black;
+  border-radius: 0.5em;
+  padding: 0.2em;
+}
+.header-links:hover{
+  transition: background-color 0.2s ease-in-out;
+  background-color: orange;
+}
+
+.page-body{
+  /*margin-left: 80px;*/
+  margin-left: 22%;
+}
+
+.yog-img,.nyarlathotep-img{
+  width: 100%;
+}
+
+.cthulhu-img{
+  width: 95%;
+}
+
+#cthulhu-card{
+  width: 340px;
+  border: 1px solid gray;
+  box-shadow: 1px 1px 1px #888;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  float: left;
+  background-color: #FFFFFF;
+  padding-bottom: 5px;
+}
+
+#yog-card{
+  width: 340px;
+  border: 1px solid gray;
+  box-shadow: 1px 1px 1px #888;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  float:left;
+  background-color: white;
+  padding-bottom: 5px;
+}
+
+#nyarlathotep-card{
+  width: 340px;
+  border: 1px solid gray;
+  box-shadow: 1px 1px 1px #888;
+  float: left;
+  margin-bottom: 10px;
+  background-color: white;
+  padding-bottom: 5px;
+}
+
+.cthulhu-header{
+  text-align: center;
+}
+
+.text{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+h2{
+  font-size: 120%;
+}
+
+.lovecraft-header{
+  text-align: center;
+}
+
+.nav ul {
+  list-style: none;
+  background-color: #5d5e60;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  font-size: 1.2em;
+  line-height: 60px;
+  height: 60px;
+  padding-right: 20px;
+  display: inline-block;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #ffffff;
+  display: block;
+}
+
+.nav a:hover {
+  background-color: #c68b13;
+  transition: 0.5s ease-in-out;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+figcaption{
+  color: grey;
+  text-align: center;
+  font-weight: bold;
+  font-size: 120%;
+}
+
+.sideeffects{
+  padding-bottom: .5em;
+}
+
+footer{
+  background-color: grey;
+  text-align: center;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+  background-color: #5d5e60;
+  color: #E0E0E0;
+}
+
+.deal{
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold;
+}
