@@ -1,8 +1,13 @@
-body{
-    background-color: #E0E0E0;
-    font-family: 'Alegreya Sans', sans-serif;
-    margin: 0 auto;
+/** Surface Pro 4 Media Query **/
+@media (min-resolution: 144dpi) {
+
 }
+body{
+  background-color: #E0E0E0;
+  font-family: 'Alegreya Sans', sans-serif;
+  margin: 0 auto;
+}
+
 .nav-button{
   color: orange;
   display: inline;
@@ -24,6 +29,12 @@ body{
 .page-body{
   /*margin-left: 80px;*/
   margin-left: 22%;
+}
+/** Surface Pro 4 Media Query **/
+@media (min-resolution: 144dpi) {
+  .page-body{
+    margin-left: 6%;
+  }
 }
 
 .yog-img,.nyarlathotep-img{
@@ -114,7 +125,7 @@ figcaption{
   color: grey;
   text-align: center;
   font-weight: bold;
-  font-size: 120%;
+  font-size: 1.0em;
 }
 
 .sideeffects{
